@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create User Account</h1>
+    <form>
+        <label for="fullname">Full Name:</label>
+        <input type="text" name="fullname" id="fullname" placeholder="fullname" required>
+        <br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="pinkesh@gmail.com" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <br><br>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" name="confirm_password" id="confirm_password">
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="text" name="dob" id="dob" pattern="\d{4}-\d{2}-\d{2}" required>
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" name="phone" id="phone"
+        pattern="[+][9][1]\d{10}" required
+        >
+        <br><br>
+
+        <label for="credit_card">Credit Card Number:</label>
+        <input type="text" name="credit_card" id="credit_card" 
+        pattern="\d{16}" required>
+        <br><br>
+
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" pattern="^[a-zA-Z0-9]+$" required>
+        <br><br>
+
+        <label for="website">Website URL </label>
+        <input type="text" name="website" id="website" 
+        pattern="https?://.+" required>
+        <br>
+        <br>
+        <label for="comments">messages</label>
+        <textarea name="comments" id="comments" rows="10" cols="30"></textarea>
+        <br>
+        <br>
+         <fieldset>
+            <legend>select a preferred subscription plan </legend>
+            <label for="radio">subscription1</label>
+            <input type="radio" id="radio" name="terms" checked>
+            <label for="radio">subscription2</label>
+            <input type="radio" id="radio" name="terms" >
+         </fieldset>
+         <br>
+         <fieldset>
+            <legend>select country</legend>
+            <label for="dropdowns">country</label>
+            <select name="country" id="dropdowns">
+                <option value="01">INDIA</option>
+                <option value="02">PAKISTAN</option>
+                <option value="03" selected>BANGLADESH</option>
+            </select>
+         </fieldset>
+        <br>
+         <input type="range" min="10" max="50" value="20" step="2">
+        <br>
+        <button type="submit">Ragistration</button>
+        <button type="reset">reset</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html{
+    font-family: "Roboto",sans-serif;
+}
+
+header{
+    background-color: rgb(237, 237, 237);
+    height: 5rem;
+}
+.titlebar{
+    height: 50%;
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+    gap: .5rem
+    ;
+    
+}
+.img-title{
+    height: 60%;
+} 
+.title-text{
+     font-size: 1rem;
+}
+.menu-bar{
+    display: flex;
+    gap: 1rem;
+    height: 50%;
+    margin-left: 1rem;
+    align-items: center;
+}
+.menu{
+    position: relative;
+}
+.menu-btn:hover{
+    background-color: lightblue;
+}
+.li:hover{
+    background-color: gray;
+}
+.menu-items{
+    position: absolute;
+    background-color: rgb(237, 237, 237) ;
+    top: 3px;
+    width: 7rem;
+    display: none;
+}
+.menu-items:hover {
+    background-color: gray;
+}
+/* .menu-items:hover #SpeedDown{
+    background-color: red; */
+/* } */
+.menu:hover .menu-items{
+    display: block;
+}
+ /* .menu-btn:hover + .menu-items{
+    display: block;
+ } */
+
+main{
+    background-color: black;
+    height: calc(100vh - 8rem);
+}
+footer{
+    height:3rem;
+  
+
+}

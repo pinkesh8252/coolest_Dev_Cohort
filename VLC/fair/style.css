@@ -35,6 +35,9 @@ header{
 .menu-btn:hover{
     background-color: lightblue;
 }
+.videoInput{
+    display: none;
+}
 .li:hover{
     background-color: gray;
 }
@@ -61,6 +64,12 @@ header{
 main{
     background-color: black;
     height: calc(100vh - 8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    height: 100%;
 }
 footer{
     height:3rem;

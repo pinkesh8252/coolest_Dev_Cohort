@@ -13,7 +13,7 @@ let arr = [1, 2, 3, 4]
 
 // print
 // console.log(arr2);
-// console.log("arr",arr);
+console.log("arr",arr);
 
 // iterate
 // for (let i = 0; i < arr.length; i++) {
@@ -28,17 +28,17 @@ let arr = [1, 2, 3, 4]
  * ***************/
 // 1. push() - add element at the end of the array
 arr.push(50);
-// console.log("after push", arr);
+console.log("after push", arr);
 // //2 .pop() - remove element from the end of the array
-// arr.pop();
-// console.log("after pop", arr);
+arr.pop();
+console.log("after pop", arr);
 // // 3. unshift() - add element at the start of the array
 arr.unshift(5);
-// console.log("after unshift", arr);
+console.log("after unshift", arr);
 // // 4. shift() - remove element from the start of the array
 // arr.shift();
 // console.log("after shift", arr);
-console.log(arr);
+// console.log(arr);
 
 //5. slice -  input->  start index  , end index 
 // slice a copy the array from  sidx to edix - 1
@@ -53,30 +53,30 @@ console.log(arr);
 // console.log("after splice", arr);
 
 //7. indexOf - find the index of the element in the array
-// console.log("index of 5", arr.indexOf(5));
-// console.log("index of 30", arr.indexOf(30));
+console.log("index of 5", arr.indexOf(5));
+console.log("index of 30", arr.indexOf(30));
 // //8. includes
-// console.log("is element present", arr.includes(10));
+console.log("is element present", arr.includes(10));
 
 //9. join - join the array elements with the specified separator
-// let fruits = ["apple", "oranges", "banana"];
-// let str = fruits.join("+");
-// console.log("string:", str);
+let fruits = ["apple", "oranges", "banana"];
+let str = fruits.join("+");
+console.log("string:", str);
 
 
 
-// function advancedManipulation(words) {
-// let firstWord = words.shift();
-// words.unshift("new");
-// words.unshift(firstWord);
-// // remove
-// words.splice(2, 1);
+function advancedManipulation(words) {
+let firstWord = words.shift();
+words.unshift("new");
+words.unshift(firstWord);
+// remove
+words.splice(2, 1);
 
-// // join
-// let joinedStr = words.join(",");
-// return joinedStr
-// }
+// join
+let joinedStr = words.join(",");
+return joinedStr
+}
 
-// let words = ["apple", "banana", "cherry", "date"];
-// let result = advancedManipulation(words);
-// console.log(result);
+let words = ["apple", "banana", "cherry", "date"];
+let result = advancedManipulation(words);
+console.log(result);

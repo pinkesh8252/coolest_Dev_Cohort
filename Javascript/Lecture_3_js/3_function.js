@@ -69,15 +69,15 @@ refFunction();
 
 
 // let real=function () {
-    // console.log("I am real. Always run me");
+//     console.log("I am real. Always run me");
 // }
 // real();
 // let real=function () {
-    // console.log("No I am real one ");
+//     console.log("No I am real one ");
 // }
-// 
+
 // let real=function () {
-    // console.log("You both are wasted");
+//     console.log("You both are wasted");
 // }
 
 // real();

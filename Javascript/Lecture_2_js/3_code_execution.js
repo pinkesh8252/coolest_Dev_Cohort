@@ -22,7 +22,7 @@
  *  a. a function is called 
  *  b. code execution starte for global code->
  *       global execution context
- * 3. Execution context -> it excutes in two phases
+ * 3. Execution context -> it executes in two phases
  *      a.) Execution context createion
  *         i.) memory allocation -> hositing
  *              i.) variable -> undefined

@@ -1,16 +1,16 @@
 console.log("Hello JS:)");
 
 // variable scope
- let a = 10;
- console.log("console 1", a);
- function fn() {
-     let a = 20;
-     console.log("console 2", a);
-     a++;
-     console.log("console 3", a);
- }
- fn();
- console.log("console 4", a);
+//  let a = 10;
+//  console.log("console 1", a);
+//  function fn() {
+//      let a = 20;
+//      console.log("console 2", a);
+//      a++;
+//      console.log("console 3", a);
+//  }
+//  fn();
+//  console.log("console 4", a);
 
 
 // let -> block scoped
@@ -18,14 +18,14 @@ console.log("Hello JS:)");
 // what is block -> anything between two curly braces
 // * function, loop , conditionls
 
- //let a=10
- console.log(a)
- if (true) {
-     let a = 20;
-     console.log(a);
- }
- console.log(a);
-// let a = 10;
+//  let a=10
+//  console.log(a)
+//  if (true) {
+//      let a = 20;
+//      console.log(a);
+//  }
+//  console.log(a);
+let a = 10;
   console.log("console 1", a);
  function fn() {
     let a = 20;

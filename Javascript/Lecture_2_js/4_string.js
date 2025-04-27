@@ -1,6 +1,6 @@
 
-let text = "Hello, World!";
-console.log("length",text.length); // Output: 13
+// let text = "Hello, World!";
+// console.log("length",text.length); // Output: 13
 
 // console.log(text.toUpperCase()); // Output: HELLO, WORLD!
 // console.log(text.toLowerCase()); // Output: hello, world!
@@ -27,14 +27,14 @@ console.log("length",text.length); // Output: 13
 
 // let text1 = "      Hello World!      ";
 // let text2 = text1.trim();
+// console.log(text2)
 
+// let message = "HELLO WORLD";
 
-let message = "HELLO WORLD";
+// let char = message.charAt(0);
+// console.log(char); // Output: H
+// let ascii = message.charCodeAt(0);
+// console.log(ascii); // Output: 72
 
-let char = message.charAt(0);
-console.log(char); // Output: H
-let ascii = message.charCodeAt(0);
-console.log(ascii); // Output: 72
-
-let newText = text.replace("World", "JavaScript");
-console.log(newText); // Output: Hello, JavaScript!
+// let newText = text.replace("World", "JavaScript");
+// console.log(newText); // Output: Hello, JavaScript!

@@ -26,12 +26,12 @@
 
 
 // const varName=20;
-// varName=100;
+// varName=100;      (get error)
 // const str="hello";
-// str="hi";
+// str="hi";          (get error)
 // const arr = [10, 20, 30];
 // const arr2 = [30, 40, 50];
-// arr = arr2;
+// arr = arr2; (get error)
 // console.log(arr);
 
 // const arr=[10,20,30];

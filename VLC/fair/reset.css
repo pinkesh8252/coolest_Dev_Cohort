@@ -9,4 +9,5 @@ ul{
 }
 li{
     list-style: none;
+    padding: .25rem;
 }

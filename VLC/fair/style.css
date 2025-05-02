@@ -38,7 +38,16 @@ header{
 .videoInput{
     display: none;
 }
-.li:hover{
+#SpeedUp:hover{
+    background-color: gray;
+}
+#SpeedDown:hover{
+    background-color: gray;
+}
+#VolumeUp:hover{
+    background-color: gray;
+}
+#VolumeDown:hover{
     background-color: gray;
 }
 .menu-items{
@@ -48,9 +57,9 @@ header{
     width: 7rem;
     display: none;
 }
-.menu-items:hover {
+/* .menu-items:hover {
     background-color: gray;
-}
+} */
 /* .menu-items:hover #SpeedDown{
     background-color: red; */
 /* } */
@@ -71,8 +80,14 @@ main{
 .video{
     height: 100%;
 }
+.toast{
+    color:white;
+    font-size: 2rem;
+    position: fixed;
+    top: 99px;
+    right: 62px;
+    display: none;
+}
 footer{
     height:3rem;
-  
-
 }

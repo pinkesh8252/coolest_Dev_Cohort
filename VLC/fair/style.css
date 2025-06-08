@@ -31,6 +31,7 @@ header{
 }
 .menu{
     position: relative;
+    cursor: pointer;
 }
 .menu-btn:hover{
     background-color: lightblue;

@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  
+}
+body{
+    font-family: Arial ,Helvetica ,sans-serif;
+    background-color: #141414;
+    color: #fff;
+
+}
+.navbar{
+    position:fixed;
+    top:0%;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.7) 0%,
+        rgba(0,0,0,0) 100%
+    );
+    z-index: 100;
+    transition: background-color 0.3s;
+    background-color: #141414;
+}
+.nav-link{
+   color: #e5e5e5;
+   text-decoration: none;
+   font-size: 14px;
+    transition: color 0.3s;
+}
+.nav-link:hover{
+    color: #b3b3b3;
+}
+.navbar_nav{
+    display: flex;
+    gap: 20px;
+}
+.navbar_right{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+.navbar_right i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.logo{
+    height: 25px;
+    cursor: pointer;
+}
+.profile-img{
+    height: 32px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero{
+    height: 80vh;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.4) 0%,
+        rgba(0,0,0,0.8) 100%
+    ),
+    url(https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg) center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 60px;
+    margin-bottom: 80px; 
+}
+.hero-content{
+    max-width: 600px;
+}
+.hero-title{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.hero-description{
+    font-size: 18px;
+    margin-bottom: 24px;
+    color: #e5e5e5;
+}
+.hero-button{
+    display: flex;
+    gap: 16px;
+}
+.btn{
+    padding: 10px 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.35;
+}
+.btn-play:hover{
+    background-color: rgba(255,255,255,0.75);
+}
+.btn-more-info:hover{
+    background-color: rgba(100,109,110,0.7);
+}

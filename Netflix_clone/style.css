@@ -25,7 +25,7 @@ body{
     );
     z-index: 100;
     transition: background-color 0.3s;
-    background-color: #141414;
+    /* background-color: #141414; */
 }
 .nav-link{
    color: #e5e5e5;
@@ -93,7 +93,7 @@ body{
     padding: 10px 10px;
     background-color: #fff;
     color: #000;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     cursor: pointer;
@@ -107,4 +107,7 @@ body{
 }
 .btn-more-info:hover{
     background-color: rgba(100,109,110,0.7);
+}
+footer{
+    height: 3rem;
 }
